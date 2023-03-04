@@ -10,9 +10,11 @@ const ColumnForm = props => {
     const dispatch = useDispatch();
     const [title, settitle] = useState( '');
     const [icon, seticon] = useState('');
+    const listId = props.listId;
+    const id = shortid();
     const handleSubmit = e => {
         e.preventDefault();
-        dispatch(addColumn({ title, icon }));
+        dispatch(addColumn({ id, listId, title, icon }));
         settitle('');
         seticon('')
     };
