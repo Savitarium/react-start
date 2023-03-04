@@ -4,7 +4,7 @@ import Button from '../Button/Button.js';
 import TextInput from "../TextInput/TextInput";
 import {useDispatch} from "react-redux";
 import shortid from  'shortid';
-import {addColumn} from "../../redux/store";
+import {addColumn} from "../../redux/columnRedux";
 
 const ColumnForm = props => {
     const dispatch = useDispatch();

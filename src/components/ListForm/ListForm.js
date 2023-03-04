@@ -4,7 +4,8 @@ import {useState} from "react";
 import shortid from "shortid";
 import TextInput from "../TextInput/TextInput";
 import Button from "../Button/Button";
-import {addList} from "../../redux/store";
+import {addList} from "../../redux/listsRedux";
+
 const ListForm = () => {
     const dispatch = useDispatch();
     const [title, setTitle] = useState('');

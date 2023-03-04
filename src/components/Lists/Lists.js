@@ -1,4 +1,4 @@
-import {getAllList} from "../../redux/store";
+import {getAllList} from "../../redux/listsRedux";
 import {useSelector} from "react-redux";
 import styles from './Lists.module.scss';
 import {Link} from "react-router-dom";

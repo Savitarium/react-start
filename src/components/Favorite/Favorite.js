@@ -1,6 +1,6 @@
 import styles from "./Favorite.module.scss";
 import PageTitle from "../PageTitle/PageTitle";
-import {getFavoriteCard} from "../../redux/store";
+import {getFavoriteCard} from "../../redux/cardsRedux";
 import { useSelector } from "react-redux";
 import Card from "../Card/Card";
 const Favorite = () => {
